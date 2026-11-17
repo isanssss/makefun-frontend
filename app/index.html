@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="A fast, accessible frontend for make.fun: live bounty board, bounty pages, leaderboards and profiles.">
+<title>make.fun bounties</title>
+<link rel="stylesheet" href="style.css">
+<script type="module" src="main.js"></script>
+</head>
+<body>
+<a class="skip" href="#app">Skip to content</a>
+<header class="site-header">
+  <a class="brand" href="#/">make.fun <span>bounties</span></a>
+  <nav aria-label="Primary">
+    <a href="#/">Board</a>
+    <a href="#/bounty/makefun-frontend-01">This bounty</a>
+    <a href="#/bounty/makefun-frontend-01/leaderboard">Leaderboard</a>
+  </nav>
+</header>
+<main id="app" tabindex="-1"></main>
+<div id="announcer" class="visually-hidden" aria-live="polite" role="status"></div>
+<footer class="site-footer">
+  <p>Live data from the make.fun public API. Rewards shown are the live pot: the prize plus entry fees paid in.</p>
+</footer>
+</body>
+</html>
